@@ -85,13 +85,13 @@ class CajonFB {
             return null;
         }
         const fbRootDOM = document.querySelector(`#${this.fbRoot}`);
+        const cajonFBPageDOM = document.querySelector(`#${this.id}`);
         if(!this.fantasma(fbRootDOM)) {
-            console.error(`id属性として${this.fbRoot}を持つdivタグが存在しません。`);
+            console.log(`id属性として${this.fbRoot}を持つdivタグが存在しません。`);
             // 代替リンクを埋め込み
             this.alto(cajonFBPageDOM);
             return false;
         }
-        const cajonFBPageDOM = document.querySelector(`#${this.id}`);
         if(!this.corrente(fbRootDOM, cajonFBPageDOM)) {
             console.log('正常にfacebookページの埋め込みが行われませんでした (要素未発見)。');
             // 代替リンクを埋め込み

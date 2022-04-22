@@ -1,13 +1,14 @@
 const dom = `
-<!--<div id="fb-root"></div>-->
-<script async defer crossorigin="anonymous" src="https://connect.facebook.net/ja_JP/sdk.js#xfbml=1&version=v13.0" nonce="cuUcL1dN"></script><!-- facebook埋め込み用スクリプト sdk.js -->
+<div id="fb-root" class=" fb_reset"><div style="position: absolute; top: -10000px; width: 0px; height: 0px;"><div></div></div></div><!-- facebook埋め込み用タグ -->
+<script src="https://connect.facebook.net/ja_JP/sdk.js?hash=82e922b8e93ec1aa3898a6ead106c664" async="" crossorigin="anonymous"></script><script async="" defer="" crossorigin="anonymous" src="https://connect.facebook.net/ja_JP/sdk.js#xfbml=1&amp;version=v13.0" nonce="cuUcL1dN"></script><!-- facebook埋め込み用スクリプト sdk.js -->
 <header class="l-header">
     <nav class="navbar">
         <div class="container">
             <a class="navbar-brand my-0" href="./">CajonFB</a>
         </div>
     </nav>
-</header><main class="l-main">
+</header>
+<main class="l-main">
     <section class="container py-5">
         <h1>CajonFB - Demo</h1>
         <p>facebook埋め込み状態を判定して、埋め込み失敗時は代替リンクを表示させる Cajon のデモページ</p>

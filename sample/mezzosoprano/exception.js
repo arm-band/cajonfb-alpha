@@ -7,13 +7,14 @@ const dom = `
             <a class="navbar-brand my-0" href="./">CajonFB</a>
         </div>
     </nav>
-</header><main class="l-main">
+</header>
+<main class="l-main">
     <section class="container py-5">
         <h1>CajonFB - Demo</h1>
         <p>facebook埋め込み状態を判定して、埋め込み失敗時は代替リンクを表示させる Cajon のデモページ</p>
         <h2>埋め込み</h2>
         <div class="fb-page" id="cajonFBPage" data-href="https://www.facebook.com/facebook" data-tabs="timeline" data-width="" data-height="" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/facebook" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/facebook">Meta</a></blockquote></div> <!-- 埋め込み用タグに id="cajonFBPage" を追加 -->
-        <div id="cajonAltLink"></div>
+        <!--<div id="cajonAltLink"></div>-->
     </section>
 </main>
 <footer class="l-footer w-100">
