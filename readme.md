@@ -1,5 +1,7 @@
 # Cajon
 
+[![Jest test](https://github.com/arm-band/cajonfb-alpha/actions/workflows/ci_unittest.yml/badge.svg)](https://github.com/arm-band/cajonfb-alpha/actions/workflows/ci_unittest.yml)
+
 ## Abstract
 
 facebook埋め込み状態を判定して、埋め込み失敗時は代替リンクを表示させる ESモジュール。
