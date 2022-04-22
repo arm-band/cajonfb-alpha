@@ -1,0 +1,15 @@
+{
+  "name": "cajonfb",
+  "version": "0.0.1",
+  "description": "facebook埋め込み状態を判定して、埋め込み失敗時は代替リンクを表示させる ESモジュール",
+  "main": "src/cajon_fb.js",
+  "scripts": {
+    "test": "jest",
+    "test:coverage": "jest --coverage"
+  },
+  "author": "arm-band",
+  "license": "MIT",
+  "dependencies": {
+    "jest": "^27.5.1"
+  }
+}
